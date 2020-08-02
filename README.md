@@ -3,10 +3,10 @@
 Projeto didático.
 
 # Tecnologias principais
-Vue.js 
-Vue Router 
-Firebase 
-Bootstrap 
+- Vue.js 
+- Vue Router 
+- Firebase 
+- Bootstrap 
 
 ### Rodando o projeto local
 

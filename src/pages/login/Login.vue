@@ -31,8 +31,14 @@ export default {
   data () {
     return {
       loading: false,
-      email: process.env.NODE_ENV === 'development' ? 'teste@gmail.com' : undefined,
-      password: process.env.NODE_ENV === 'development' ? '123456' : undefined
+      email: undefined,
+      password: undefined
+    }
+  },
+  mounted () {
+    if (process.env.NODE_ENV === 'development') {
+      this.email = process.env.VUE_APP_LOGIN_EMAIL
+      this.password = process.env.VUE_APP_LOGIN_PASS
     }
   },
   methods: {

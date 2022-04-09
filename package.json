@@ -13,7 +13,7 @@
     "core-js": "^3.6.5",
     "firebase": "^7.17.1",
     "lodash.groupby": "^4.6.0",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0"
   },

@@ -4,7 +4,6 @@ Projeto didático.
 
 # Tecnologias principais
 - Vue.js 
-- Vue Router 
 - Firebase 
 - Bootstrap 
 
